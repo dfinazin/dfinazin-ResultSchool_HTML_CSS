@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html,course,css,tags,result.school"> <!--Ключевые слова для поисковика-->
+    <meta name="description"
+        content="Проект выполнен в рамках курса 'Профессия Джуниор Frontend-разработчик. Основы HTML&CSS. HTML.' Result University">
+    <!-- Описание страницы выводимое поисковиком -->
+    <title>Финажин Резюме</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus.jpg/275px-Bradypus.jpg"
+            width="100%" alt="Типа Аватарка" class="avatarka">
+        <div class="info">
+            <h1>Финажин Дмитирий</h1>
+            <p class="aboutMe">Являюсь специалистом <strong>САПР</strong> и <strong>ГИС</strong>.</p>
+            <p class="aboutMe">Мне нарвится <strong><em>программировать</em></strong>. Я <em>знаком</em> с языками
+                программирования:
+                <strong>pascal (Delphi), AutoLisp, VBA, VB.net, c#, js, python</strong>.
+            </p>
+            <h4>Список социальных сетей:</h4>
+            <p><a href="https://career.habr.com/dfin1" target="_blank">Хабр карьера</a>
+                |
+                <a href="https://www.youtube.com/watch?v=zWmAlxe-sPM" target="_blank">Youtube</a>
+                |
+                <a href="https://www.codewars.com/users/DFin" target="_blank">Codewars</a>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="card bg-green">
+            <h4>Мои хобби:</h4>
+            <ol>
+                <li>Сноуборд</li>
+                <li>Путешествия</li>
+                <li>Бег</li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="card bg-red">
+            <h4>Опыт работы:</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Организация</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Инфолинг</td>
+                        <td>Руководитель технической поддержки</td>
+                        <td>2009-2015</td>
+                    </tr>
+                    <tr>
+                        <td>Газпром геологоразведка</td>
+                        <td>Ведущий инженер отдела ГИС</td>
+                        <td>2015-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Газпром недра</td>
+                        <td>Руководитель группы ГИС</td>
+                        <td>2020-сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <div class="card bg-yellow">
+            <h4>Мои сертификаты:</h4>
+            <p><a href="https://stepik.org/cert/2183931" target="_blank">Инди-курс по HTML и CSS</a></p>
+            <p><a href="https://stepik.org/cert/1939504" target="_blank">Веб-разработка для начинающих: HTML и CSS</a>
+            </p>
+            <p><a href="https://stepik.org/cert/1727028" target="_blank">JavaScript для начинающих</a></p>
+        </div>
+
+        <hr>
+
+        <h4>Связаться со мной:</h4>
+        <form>
+            <div class="pinfo">
+                <label for="pname">Ваше имя:</label>
+                <input type="text" id="pname" placeholder="Введите имя">
+            </div>
+            <div class="pinfo">
+                <label for="pemail">Ваш email:</label>
+                <input type="email" id="pemail" placeholder="Введите email">
+            </div>
+            <div>
+                <label for="pmessage">Ваше сообщение:</label>
+                <!-- <br> -->
+                <textarea id="pmessage" cols="40" rows="10" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Отправить!" class="btn">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background-color: #f1f1f1;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+ol, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner {
+    max-width: 700px;
+    margin: auto;
+
+}
+
+.avatarka {
+    max-width: 150px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    width: 40%;
+    display: inline-block;
+}
+
+.info{
+    min-width: 530px;
+    margin: auto;
+    width: 40%;
+    display: inline-block;
+}
+
+.aboutMe {
+    font-style: italic;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+table {
+    margin: auto;
+}
+
+.card {
+    width:fit-content;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bg-yellow {
+    background: #fef9df;
+}
+.bg-red {
+    background: #ffe5e3;
+}
+.bg-green {
+    background: #e5feea;
+}
+
+.card p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+a {
+    color: #848384;
+    text-decoration: none;
+    color:salmon;
+}
+
+a:hover {
+    color: rgb(47, 0, 255);
+}
+
+/* a:visited{
+    color: #84838434;
+} */
+
+label{
+    display: block;
+    padding: 10px;
+}
+
+.pinfo input{
+    width: 90%;
+}
+
+.pinfo{
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+    min-width: 180px;
+    max-width: 700px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+tr:nth-child(odd){
+background: #fdd1ce;
+}
